@@ -10,8 +10,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Header() {
   return (
-    <div>
-      <Container fluid className="p-0">
+    <div id="Header">
+      <Container fluid className="p-0 position-absolute">
         <Row>
           <Col>
             <Navbar sticky='top'>

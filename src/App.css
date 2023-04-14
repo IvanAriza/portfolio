@@ -1,4 +1,8 @@
-/* Header */
+/* HEADER */
+/* Header sobre el resto de elementos, ancho maximo */
+#Header{
+    width: 100%;
+}
 
 /* Header transparente */
 .navbar{
@@ -11,6 +15,11 @@
     text-decoration: none;
 }
 
+.dropdown .dropdown-item a{
+    color: black;
+    text-decoration: none;
+}
+
 /* Dropdown a la derecha */
 .dropdown{
     float: right;
@@ -19,4 +28,30 @@
 /* Mover el pop up del dropdown para que no se salga de la pantalla */
 .dropdown-menu[data-bs-popper]{
     left: -95px !important;
+}
+
+/* HOME */
+
+/* Quitar el padding de la columna del banner de home*/
+#columnaBannerHome{
+    padding: 0px;
+}
+
+/* Banner de home ocupa toda la pantalla */
+#bannerHome, #bannerHome img{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Enviar atras al Banner*/
+#bannerHome img{
+    z-index: -1;
+}
+
+
+/* Estilos con breakpoints */
+@media (min-width: 576px){
+    .position-sm-absolute{
+        position: absolute !important;
+    }
 }
