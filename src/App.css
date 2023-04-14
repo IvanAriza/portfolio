@@ -1,15 +1,22 @@
+/* Header */
+
+/* Header transparente */
 .navbar{
     background-color: rgba(0,0,0,0.0)
 }
 
-.navbar .navbar-nav .nav-link {
+/* Links negros y sin subrayado */
+.navbar .navbar-nav .nav-link a{
     color: black;
+    text-decoration: none;
 }
 
+/* Dropdown a la derecha */
 .dropdown{
     float: right;
 }
 
+/* Mover el pop up del dropdown para que no se salga de la pantalla */
 .dropdown-menu[data-bs-popper]{
     left: -95px !important;
 }
