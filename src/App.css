@@ -32,26 +32,85 @@
 
 /* HOME */
 
-/* Quitar el padding de la columna del banner de home*/
-#columnaBannerHome{
-    padding: 0px;
-}
-
-/* Banner de home ocupa toda la pantalla */
-#bannerHome, #bannerHome img{
-    width: 100vw;
-    height: 100vh;
-}
-
 /* Enviar atras al Banner*/
-#bannerHome img{
+.z-index-1{
     z-index: -1;
 }
 
+.vh-40{
+    height: 40vh;
+}
+
+.vw-xs-90{
+    width: 90vw;
+}
+
+.vw-xs-85{
+    width: 85vw;
+}
+
+.mw-32rem{
+    max-width: 32rem;
+}
+
+.mw-30rem{
+    max-width: 30rem;
+}
+
+.p-xs-1{
+    padding: 1rem;
+}
+
+.backgroundHome{
+    background-image: url(./img/IvanResponsive.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.backgroundRoca{
+    background-image: url(./img/roca.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.backgroundStucom{
+    background-image: url(./img/stucom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
 
 /* Estilos con breakpoints */
+
 @media (min-width: 576px){
-    .position-sm-absolute{
-        position: absolute !important;
+    .vw-ms-90{
+        width: 90vw;
+    }
+    
+    .vw-ms-85{
+        width: 85vw;
+    }
+
+    .p-ms-1{
+        padding: 1rem;
+    }
+
+    .backgroundHome{
+        background-image: url(./img/Ivan.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+}
+
+@media (min-width: 768px){
+    .vw-md-70{
+        width: 70vw;
+    }
+    
+    .vw-md-60{
+        width: 60vw;
+    }
+
+    .p-md-3{
+        padding: 3rem;
     }
 }
