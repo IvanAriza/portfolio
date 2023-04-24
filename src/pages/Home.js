@@ -10,12 +10,21 @@ const Home = () => {
         {/* Banner home */}
         <Row className='mx-0 vh-100 backgroundHome'>
           <Col sm={6} className='d-none d-sm-flex align-items-center justify-content-center'>
-            <h1 className='text-center display-2'>Ivan Ariza Huertas</h1>
+            <h1 className='text-center display-3'>Ivan Ariza Huertas<br/>Programador FullStack</h1>
           </Col>
         </Row>
         <Row className='mx-0 vh-40 d-flex d-sm-none'>
           <Col sm={12} className='d-flex align-items-center justify-content-center'>
-            <h1 className='text-center display-2'>Ivan Ariza Huertas</h1>
+            <h1 className='text-center display-2'>Ivan Ariza Huertas<br/>Programador FullStack</h1>
+          </Col>
+        </Row>
+        {/* Sobre mi */}
+        <Row>
+          <Col className='sobreMi'>
+            <h1 className='text-center'>Sobre mi</h1>
+            <p className='text-center'>Soy una persona entusiasta y comprometida con el trabajo en equipo, siempre dispuesta a colaborar y aprender de los demás.</p>
+            <p className='text-center'>Me considero autodidacta, lo que me permite adquirir nuevos conocimientos de forma autónoma y aplicarlos en mi desempeño laboral.</p>
+            <p className='text-center'>Me apasiona el aprendizaje continuo y estoy comprometido con el desarrollo personal y profesional.</p>
           </Col>
         </Row>
         {/* Estudios */}

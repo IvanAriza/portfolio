@@ -61,6 +61,14 @@
     padding: 1rem;
 }
 
+.sobreMi{
+    padding: 50px;
+}
+
+.sobreMi>h1{
+    margin-bottom: 20px;
+}
+
 .backgroundHome{
     background-image: url(./img/IvanResponsive.jpg);
     background-repeat: no-repeat;
