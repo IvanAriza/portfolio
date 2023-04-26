@@ -61,12 +61,16 @@
     padding: 1rem;
 }
 
-.sobreMi{
+.sobreMi, .proyectos{
     padding: 50px;
 }
 
-.sobreMi>h1{
+.sobreMi>h1, .proyecto>h1{
     margin-bottom: 20px;
+}
+
+.proyectos a{
+    text-decoration: none;
 }
 
 .backgroundHome{
@@ -83,6 +87,30 @@
 
 .backgroundStucom{
     background-image: url(./img/stucom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.backgroundInformaticoh{
+    background-image: url(./img/Informaticoh.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.backgroundBadalona{
+    background-image: url(./img/badalonaServeisAssistencials.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.backgroundTtrchile{
+    background-image: url(./img/trrchile.PNG);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.backgroundModballs{
+    background-image: url(./img/Modballs.PNG);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }

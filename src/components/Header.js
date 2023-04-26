@@ -12,7 +12,7 @@ function Header() {
   return (
     <div id="Header">
       <Container fluid className="p-0 position-absolute">
-        <Row>
+        <Row className='vw-100'>
           <Col>
             <Navbar sticky='top'>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,14 +25,12 @@ function Header() {
                           Ahora mismo esto es poner un a dentro de un a, devuelve un error en la consola pero funciona, mirar si da tiempo como solucionarlo  */}
                           <Nav.Link><Link to="/contacto">Contactame</Link></Nav.Link>
                           <Nav.Link><Link to="/proyectos">Proyectos</Link></Nav.Link>
-                          <Nav.Link><Link to="/sobre_mi">Sobre mi</Link></Nav.Link>
                           <Nav.Link><Link to="/">Home</Link></Nav.Link>
                         </Nav>
                       </Col>
                       <Col className="d-block d-sm-none">
                         <NavDropdown title="Menu" id="dropdownMenu basic-nav-dropdown">
                           <NavDropdown.Item><Link to="/">Home</Link></NavDropdown.Item>
-                          <NavDropdown.Item><Link to="/sobre_mi">Sobre mi</Link></NavDropdown.Item>
                           <NavDropdown.Item><Link to="/proyectos">Proyectos</Link></NavDropdown.Item>
                           <NavDropdown.Item><Link to="/contacto">Contactame</Link></NavDropdown.Item>
                         </NavDropdown>

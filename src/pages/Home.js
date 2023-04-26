@@ -28,10 +28,10 @@ const Home = () => {
           </Col>
         </Row>
         {/* Estudios */}
-        <Row className='mx-0 vh-100 backgroundRoca'>
+        <Row className='mx-0 mb-3 vh-100 backgroundRoca'>
           <Col sm={12} className='px-0 d-flex align-items-center'>
-            <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1  p-ms-1 d-flex flex-column align-items-center justify-content-center'>
-              <h1 className='text-white'>Centro de estudios Roca<br/>2020-2022</h1>
+            <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1 p-ms-1 d-flex flex-column align-items-center justify-content-center'>
+              <h1 className='text-white'>Centre d'estudis Roca<br/>2018-2020</h1>
             </div>
           </Col>
           <Col sm={12} className='px-0 d-flex align-items-center'>
@@ -40,15 +40,39 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-        <Row className='mx-0 vh-100 backgroundStucom'>
+        <Row className='mx-0 mb-3 vh-100 backgroundStucom'>
+          <Col sm={12} className='px-0 d-flex align-items-center flex-row-reverse'>
+            <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1  p-ms-1 d-flex flex-column align-items-center justify-content-center'>
+              <h1 className='text-white'>Centre d'estudis Stucom<br/>2020-2021</h1>
+            </div>
+          </Col>
+          <Col sm={12} className='px-0 d-flex align-items-center flex-row-reverse'>
+            <div className='bg-dark vw-md-60 vw-xs-85 vw-ms-85 mw-30rem p-md-3 p-xs-1 p-ms-1 d-flex flex-column align-items-center justify-content-center'>
+              <p className='text-white'>En el centro de estudiso Stucom profundice mas en la programacion orientada a paginas web, aprendi mas sobre js, php, bases de datos y toque algunos frameworks como Angular.</p>
+            </div>
+          </Col>
+        </Row>
+        <Row className='mx-0 mb-3 vh-100 backgroundInformaticoh'>
           <Col sm={12} className='px-0 d-flex align-items-center'>
             <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1  p-ms-1 d-flex flex-column align-items-center justify-content-center'>
-              <h1 className='text-white'>Centro de estudios Stucom<br/>2020-2022</h1>
+              <h1 className='text-white'>Informaticoh<br/>2020-2022</h1>
             </div>
           </Col>
           <Col sm={12} className='px-0 d-flex align-items-center'>
             <div className='bg-dark vw-md-60 vw-xs-85 vw-ms-85 mw-30rem p-md-3 p-xs-1 p-ms-1 d-flex flex-column align-items-center justify-content-center'>
-              <p className='text-white'>En el centro de estudiso Stucom profundice mas en la programacion orientada a paginas web, aprendi mas sobre js, php, bases de datos y toque algunos frameworks como Angular.</p>
+              <p className='text-white'>Durante un año y medio estuve trabajando de autonomo junto a dos socios, haciamos paginas web con wordpress, html, css y php. Aprendi a utilizar JQuery, APIS, Elementor y otras tecnologias.</p>
+            </div>
+          </Col>
+        </Row>
+        <Row className='mx-0 vh-100 backgroundBadalona'>
+          <Col sm={12} className='px-0 d-flex align-items-center flex-row-reverse'>
+            <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1  p-ms-1 d-flex flex-column align-items-center justify-content-center'>
+              <h1 className='text-white'>BSA<br/>2022-2023</h1>
+            </div>
+          </Col>
+          <Col sm={12} className='px-0 d-flex align-items-center flex-row-reverse'>
+            <div className='bg-dark vw-md-60 vw-xs-85 vw-ms-85 mw-30rem p-md-3 p-xs-1 p-ms-1 d-flex flex-column align-items-center justify-content-center'>
+              <p className='text-white'>Durante 8 meses estuve trabajando en Badalona Serveis Assistencials como servicio tecnico, atendia llamadas e incidencias de hardware y software en 9 centros medicos distintos y administraba usuarios a traves de active directory.</p>
             </div>
           </Col>
         </Row>
