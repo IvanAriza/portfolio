@@ -28,7 +28,7 @@ const Home = () => {
           </Col>
         </Row>
         {/* Estudios */}
-        <Row className='mx-0 mb-3 vh-100 backgroundRoca'>
+        <Row className='mx-0 vh-100 backgroundRoca'>
           <Col sm={12} className='px-0 d-flex align-items-center'>
             <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1 p-ms-1 d-flex flex-column align-items-center justify-content-center'>
               <h1 className='text-white'>Centre d'estudis Roca<br/>2018-2020</h1>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-        <Row className='mx-0 mb-3 vh-100 backgroundStucom'>
+        <Row className='mx-0 vh-100 backgroundStucom'>
           <Col sm={12} className='px-0 d-flex align-items-center flex-row-reverse'>
             <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1  p-ms-1 d-flex flex-column align-items-center justify-content-center'>
               <h1 className='text-white'>Centre d'estudis Stucom<br/>2020-2021</h1>
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-        <Row className='mx-0 mb-3 vh-100 backgroundInformaticoh'>
+        <Row className='mx-0 vh-100 backgroundInformaticoh'>
           <Col sm={12} className='px-0 d-flex align-items-center'>
             <div className='bg-dark vw-md-70 vw-xs-90 vw-ms-90 mw-32rem p-md-3 p-xs-1  p-ms-1 d-flex flex-column align-items-center justify-content-center'>
               <h1 className='text-white'>Informaticoh<br/>2020-2022</h1>
