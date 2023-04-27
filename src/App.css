@@ -103,18 +103,6 @@
     background-size: 100vw 100vh;
 }
 
-.backgroundTtrchile{
-    background-image: url(./img/trrchile.PNG);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-}
-
-.backgroundModballs{
-    background-image: url(./img/Modballs.PNG);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-}
-
 /* Estilos con breakpoints */
 
 @media (min-width: 576px){
