@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* HEADER */
 /* Header sobre el resto de elementos, ancho maximo */
 #Header{
