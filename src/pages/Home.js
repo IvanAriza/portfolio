@@ -2,6 +2,17 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Carousel from 'react-elastic-carousel';
+import Conocimientos from '../components/Conocimientos';
+
+const breakpoints = [
+  { width: 1, itemsToShow: 1},
+  { width: 250, itemsToShow: 2},
+  { width: 576, itemsToShow: 4 },
+  { width: 768, itemsToShow: 5 },
+  { width: 1200, itemsToShow: 6 },
+  { width: 1500, itemsToShow: 7 }
+];
 
 const Home = () => {
   return (
@@ -74,6 +85,25 @@ const Home = () => {
             <div className='bg-dark vw-md-60 vw-xs-85 vw-ms-85 mw-30rem p-md-3 p-xs-1 p-ms-1 d-flex flex-column align-items-center justify-content-center'>
               <p className='text-white'>Durante 8 meses estuve trabajando en Badalona Serveis Assistencials como servicio tecnico, atendia llamadas e incidencias de hardware y software en 9 centros medicos distintos y administraba usuarios a traves de active directory.</p>
             </div>
+          </Col>
+        </Row>
+        <Row className='mt-3'>
+          <Col>
+            <Carousel breakPoints={breakpoints}>
+              <Conocimientos imagen="html.png"/>
+              <Conocimientos imagen="xml.png"/>
+              <Conocimientos imagen="css.png"/>
+              <Conocimientos imagen="bootstrap.png"/>
+              <Conocimientos imagen="php.png" />
+              <Conocimientos imagen="js.png"/>
+              <Conocimientos imagen="c.png"/>
+              <Conocimientos imagen="java.png"/>
+              <Conocimientos imagen="mysql.png"/>
+              <Conocimientos imagen="react.png"/>
+              <Conocimientos imagen="angular.png"/>
+              <Conocimientos imagen="git.png"/>
+              <Conocimientos imagen="github.png"/>
+            </Carousel>
           </Col>
         </Row>
       </Container>
