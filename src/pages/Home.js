@@ -92,7 +92,7 @@ const Home = () => {
         </Row>
         <Row className='mt-3'>
           <Col>
-          <h1 className='text-center mb-3'>Mis habilidades</h1>
+          <h1 className='text-center mb-3 misHabilidades'>Mis habilidades</h1>
             <Carousel breakPoints={breakpoints}>
               <Conocimientos imagen="html.png"/>
               <Conocimientos imagen="xml.png"/>
