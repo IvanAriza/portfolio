@@ -89,6 +89,7 @@ const Home = () => {
         </Row>
         <Row className='mt-3'>
           <Col>
+          <h1 className='text-center mb-3'>Mis habilidades</h1>
             <Carousel breakPoints={breakpoints}>
               <Conocimientos imagen="html.png"/>
               <Conocimientos imagen="xml.png"/>
@@ -103,6 +104,8 @@ const Home = () => {
               <Conocimientos imagen="angular.png"/>
               <Conocimientos imagen="git.png"/>
               <Conocimientos imagen="github.png"/>
+              <Conocimientos imagen="Android_Studio.png"/>
+              <Conocimientos imagen="Azure.png"/>
             </Carousel>
           </Col>
         </Row>
