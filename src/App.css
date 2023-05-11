@@ -67,10 +67,92 @@ body{
 
 .sobreMi, .proyectos{
     padding: 50px;
+    padding-bottom: 10px;
 }
 
 .sobreMi>h1, .proyecto>h1{
     margin-bottom: 20px;
+}
+
+/* Social links */
+
+.navigation > ul{
+    padding-left: 0px;
+    position: relative;
+}
+
+.list{
+    position: relative;
+    list-style: none;
+    width: 50px;
+    z-index: 1;
+}
+
+.list a{
+    position: relative;
+    text-decoration: none;
+    color: black !important;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    line-height: 75px;
+    transition: 0.5s;
+}
+
+.navigation ul li a .icon img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.navigation ul li.active a .icon{
+    transform: translateY(-6px);
+}
+.navigation ul li.active a .icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    font-size: 12px;
+    bottom: 10px;
+    font-weight: 400;
+    transition: 0.25s;
+    text-transform: uppercase;
+    transform: scale(0);
+}
+
+.navigation ul li:hover a .text{
+    transform: scale(1);
+}
+
+.indicator{
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+    background-color: #2271b3;
+    box-shadow: 0 15px 25px #2271b399;
+    transform: translateX(calc(80px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+    background-color: #f53b57;
+    box-shadow: 0 15px 25px #f53b5799;
+    transform: translateX(calc(81px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+    background-color: #ffa801;
+    box-shadow: 0 15px 25px #ffa80199;
+    transform: translateX(calc(82px * 2));
 }
 
 .proyectos a{

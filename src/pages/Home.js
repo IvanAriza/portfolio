@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-elastic-carousel';
 import Conocimientos from '../components/Conocimientos';
+import Links from '../components/Links';
 
 const breakpoints = [
   { width: 1, itemsToShow: 1},
@@ -38,6 +39,8 @@ const Home = () => {
             <p className='text-center'>Me apasiona el aprendizaje continuo y estoy comprometido con el desarrollo personal y profesional.</p>
           </Col>
         </Row>
+        {/* Social links */}
+        <Links/>
         {/* Estudios */}
         <Row className='mx-0 vh-100 backgroundRoca'>
           <Col sm={12} className='px-0 d-flex align-items-center'>
